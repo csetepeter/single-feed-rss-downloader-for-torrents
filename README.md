@@ -6,3 +6,7 @@ you have to paste your correct folders with complete path at the end of the file
 once done, run it in cron or manually, my cron job is the following (without apostrophes):
 '* * * * *    php /root/rsstotorrent/rss.php'
 which translates to run every minute. i use deluge on an armbian os (opi zero), the autoadd plugin automatically removes added .torrent files so the .torrent files do NOT get removed by this php file as far as i know.
+
+
+credit to https://github.com/dg/rss-php for providing and easy rss reader in php
+
